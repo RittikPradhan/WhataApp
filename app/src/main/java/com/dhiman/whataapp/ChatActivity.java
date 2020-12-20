@@ -55,6 +55,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ChatActivity extends AppCompatActivity {
 
+
     private String messageReceiverName,messageReceiverId,messageReceiverImage,messageSenderID;
     private TextView userName,userlastSeen;
     private CircleImageView userImage;
