@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WhataApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9766707763597997/8380722519</string>
+    <string name="ok">Update</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_feedback"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+    <include
+        android:id="@+id/appBarLayout_of_feedback"
+        layout="@layout/app_bar_layout"
+        ></include>
+
+
+
+    <EditText
+        android:id="@+id/feedback_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Type feedback here.."
+        android:layout_below="@+id/appBarLayout_of_feedback"
+        android:maxLines="10"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/feedback_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:textColor="@color/cardview_light_background"
+        android:padding="4dp"
+        android:layout_below="@+id/feedback_input"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>

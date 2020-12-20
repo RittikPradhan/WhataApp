@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:id="@+id/main_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/update_application_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/update_icon"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+
+
+        />
+
+
+</androidx.appcompat.widget.Toolbar>
